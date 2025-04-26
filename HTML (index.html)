@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Layout Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="main-heading">My Stylish Website</h1>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <p id="intro">Welcome! This layout uses modern CSS properties and principles.</p>
+    </section>
+
+    <section class="image-section">
+      <img src="https://via.placeholder.com/250" alt="Decorative" class="styled-image" />
+    </section>
+
+    <section class="content-box">
+      <p>This box demonstrates spacing, borders, and a clean layout using Flexbox.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 CSS Learner</p>
+  </footer>
+
+</body>
+</html>
